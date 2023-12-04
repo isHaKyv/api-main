@@ -25,6 +25,7 @@ require("./routes/pok.routes.js")(app);
 require("./routes/user.routes.js")(app);
 require("./routes/send.routes.js")(app);
 require("./routes/address.routes.js")(app);
+require("./routes/productos.routes.js")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
